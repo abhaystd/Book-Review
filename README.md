@@ -62,7 +62,7 @@ Make sure PostgreSQL is running. Create the database:
 CREATE DATABASE bookdb;
 ```
 
-Update your connection string in `database.py`:
+Update with your connection string in `database.py`:
 
 ```python
 DATABASE_URL = "postgresql://postgres:1234567@127.0.0.1:5432/bookdb"
@@ -80,7 +80,7 @@ alembic init alembic
 
 ### Update `alembic.ini`
 
-In the `[alembic]` section, update the `sqlalchemy.url`:
+In the `[alembic]` section, update it with your `sqlalchemy.url`:
 
 ```ini
 sqlalchemy.url = postgresql://postgres:1234567@127.0.0.1:5432/bookdb
