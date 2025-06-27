@@ -1,0 +1,26 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment
+venv/
+
+# Alembic migration cache
+alembic/versions/__pycache__/
+
+# Environment files (if added later)
+.env
+
+# Pytest cache
+.pytest_cache/
+
+# Logs
+*.log
+
+# IDE/editor configs
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
