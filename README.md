@@ -94,7 +94,7 @@ Inside `alembic/env.py`, locate the line:
 from myapp import mymodel
 ```
 
-Replace or update the `target_metadata` line to point to your actual model metadata:
+Replace or update the `target_metadata` line to point to your actual model metadata if needed:
 
 ```python
 from app.models import base  # adjust if needed
